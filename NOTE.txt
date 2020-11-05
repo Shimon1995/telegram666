@@ -1,0 +1,18 @@
+* ATTACH_IMAGE = boolean
+* Connect bot with backend via WS connection
+    [ ON EACH BOT_REPORT PUSH NOTIFICATION TO THE WEBSITE ]
+    [ PUSH NOTIFICATIONS TO ARRAY OF POLICE USERS ]
+
+* KEEP A SESSION FOR EACH USERNAME
+* REMOVE SESSION AFTER A DAY OF INACTIVITY
+
+    // const res = await axios.get(URL + 'getFile', {
+    //     params: {
+    //         file_id: 'AgACAgIAAxkBAAMFX6FGHFvnQsNOuYNuYv2b9Z8Sp2sAAoOvMRuq-AlJDfFzrXdQMO8xk-WXLgADAQADAgADbQADSo0CAAEeBA',
+    //     }
+    // });
+
+
+    !! START "/start" OUT OF SWITCH !!
+
+    !!! FIND AN EXTRA LOOP !!!
